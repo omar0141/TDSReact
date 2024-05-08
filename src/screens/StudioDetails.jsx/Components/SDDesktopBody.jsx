@@ -37,7 +37,7 @@ export default function SDDesktopBody() {
           <ImageCard image="./image3.png" alt={studios[0].name} />
           <ImageCard image="./image4.png" alt={studios[0].name} />
           <div className="d-inline position-relative">
-            <ImageCard image="/image5.png" alt={studios[0].name} />
+            <ImageCard image="./image5.png" alt={studios[0].name} />
             <Button
               className="position-absolute"
               style={{ bottom: -60, right: 40 }}

@@ -28,7 +28,7 @@ export const CancelReserveAction = async (navigate, id) => {
   const url = MyApi.cancelReserve + "/" + id
   var res = await httpRequest("PUT", url)
   if (res.status === 200) {
-    navigate("/bookings")
+    navigate(0)
     toast.success("Booking canceled Successfully", { position: "top-center" })
   }
 }
