@@ -1,5 +1,5 @@
 class MyApi {
-  static base = "http://127.0.0.1:8000/"
+  static base = "https://tds.pythonanywhere.com/"
   static api = this.base + "api/"
   static refreshToken = ""
   static accessToken = ""
