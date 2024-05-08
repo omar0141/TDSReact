@@ -6,10 +6,10 @@ import SideMenu from "./SideMenu"
 export default function MobileHeader() {
   return (
     <Row className="hide-desktop p-3">
-      <Col xs={11}>
+      <Col>
         <SideMenu placement="start" />
       </Col>
-      <Col xs={1}>
+      <Col className="text-end">
         <img width={30} height={30} className="circle-avatar" src={"./user.png"} alt="account" />
       </Col>
     </Row>

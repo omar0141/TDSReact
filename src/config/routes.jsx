@@ -15,8 +15,8 @@ export default function AppRoutes() {
       <Routes>
         <Route path="" element={<HomeScreen />} />
         <Route path="/studios" element={<HomeScreen />} />
-        <Route path="/login" element={<AccessLayout body={<LoginScreen />} />} />
-        <Route path="/register" element={<AccessLayout body={<RegisterScreen />} />} />
+        <Route path="/login" element={<AccessLayout top="10%" body={<LoginScreen />} />} />
+        <Route path="/register" element={<AccessLayout top="5%" body={<RegisterScreen />} />} />
         <Route path="/studio_details/:id" element={<StudioDetailsScreen />} />
         <Route path="/book_studio/:id" element={<BookStudioScreen />} />
         <Route path="/bookings" element={<ReservesScreen />} />

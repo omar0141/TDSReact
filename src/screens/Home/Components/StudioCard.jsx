@@ -16,9 +16,19 @@ function MobileCard(props) {
   return (
     <Link to={`/studio_details/${props.obj.id}`}>
       <div className="hide-desktop studio-card mb-3">
-        <img width={"100%"} height={350} src={"./image1.png"} alt={props.obj.name} />
+        <img
+          style={{ borderRadius: 20 }}
+          width={"100%"}
+          height={350}
+          src={"./image1.png"}
+          alt={props.obj.name}
+        />
         <div
-          style={{ backgroundColor: "#1C1C1C66" }}
+          style={{
+            backgroundColor: "#1C1C1C66",
+            borderBottomLeftRadius: 20,
+            borderBottomRightRadius: 20
+          }}
           className="position-absolute p-3 w-100 bottom-0">
           <div style={{ fontSize: 25, fontWeight: 600, color: "white" }}>{props.obj.name}</div>
           <Row className="text-white">

@@ -11,8 +11,8 @@ export default function AccessLayout(props) {
         </Col>
         <Col xs={0} md={6} style={{ backgroundColor: "#abe1f2" }}></Col>
       </div>
-      <div class="position-absolute top-0 h-100 w-100">
-        <div className="d-flex justify-content-center h-100 align-items-center">
+      <div style={{ top: props.top }} class="position-absolute pb-5 w-100">
+        <div className="d-flex justify-content-center">
           <Col xs={11} md={6} lg={5} xl={4} className="access-card">
             {props.body}
           </Col>

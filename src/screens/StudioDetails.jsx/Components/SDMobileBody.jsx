@@ -104,7 +104,7 @@ export default function SDMobileBody() {
           </div>
         </div>
       </div>
-      <div className="p-3 position-fixed w-100 bottom-0">
+      <div className="bg-white p-3 position-fixed w-100 bottom-0">
         <Link to={`/book_studio/${studios[0].id}`}>
           <Button variant="primary">Book Studio</Button>
         </Link>
